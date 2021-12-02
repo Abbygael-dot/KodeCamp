@@ -343,19 +343,6 @@
 
                 </androidx.cardview.widget.CardView>
 
-                <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/signOut"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:layout_marginEnd="16dp"
-                    android:text="@string/sign_out"
-                    android:textColor="@color/white"
-                    android:textAllCaps="false"
-                    android:fontFamily="@font/latobold"
-                    android:background="@drawable/btnlayout"
-                    android:layout_gravity="end" />
-
             </LinearLayout>
 
         </androidx.constraintlayout.widget.ConstraintLayout>

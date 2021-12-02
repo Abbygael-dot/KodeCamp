@@ -4,6 +4,7 @@ import android.widget.EditText
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.kodecamp.fragments.TopicDetails
 
 class AppViewModel : ViewModel() {
 
@@ -27,6 +28,11 @@ class AppViewModel : ViewModel() {
 
     private var _topicTitle = MutableLiveData<String>()
     val topicTitle : LiveData<String> = _topicTitle
+
+//    private var _topic2Share = TopicDetails()
+//    val topic2Share : TopicDetails = _topic2Share
+
+
 
 
     fun saveFullName (newName : String){
